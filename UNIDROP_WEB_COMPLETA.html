@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNIDROP | Merch UNI</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+body{background:#f5f5f5;color:#222}
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url('portada.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:#fff;
+}
+.hero h1{font-size:5rem}
+.hero p{font-size:1.3rem;margin:20px 0}
+.btn{background:#b11217;color:white;padding:14px 30px;border-radius:30px;text-decoration:none}
+nav{
+position:sticky;top:0;background:#fff;padding:15px;
+display:flex;justify-content:center;gap:25px;
+box-shadow:0 2px 10px rgba(0,0,0,.1)
+}
+nav a{text-decoration:none;color:#b11217;font-weight:bold}
+section{padding:60px 30px}
+h2{text-align:center;color:#b11217;margin-bottom:30px}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+max-width:1200px;
+margin:auto;
+}
+.card{
+background:white;border-radius:15px;overflow:hidden;
+box-shadow:0 4px 12px rgba(0,0,0,.1)
+}
+.card img{width:100%;height:320px;object-fit:cover}
+.info{padding:20px}
+.precio{font-size:24px;font-weight:bold;color:#b11217;margin:10px 0}
+.wsp{
+display:inline-block;background:#25D366;color:white;
+padding:10px 18px;border-radius:8px;text-decoration:none
+}
+footer{
+background:#111;color:white;text-align:center;padding:40px
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div>
+<h1>UNIDROP</h1>
+<p>Merch Universitario UNI</p>
+<a href="#polos" class="btn">Ver Catálogo</a>
+</div>
+</section>
+
+<nav>
+<a href="#polos">Polos</a>
+<a href="#poleras">Poleras</a>
+<a href="#tazas">Tazas</a>
+<a href="#gorras">Gorras</a>
+<a href="#bolsos">Bolsos</a>
+</nav>
+
+<section id="polos">
+<h2>Polos</h2>
+<div class="grid">
+
+<div class="card">
+<img src="polo1.jpg">
+<div class="info">
+<h3>Polo Alien UNI</h3>
+<p>Diseño exclusivo.</p>
+<div class="precio">S/30.00</div>
+<a class="wsp" href="https://wa.me/51902467920">Pedir</a>
+</div>
+</div>
+
+<div class="card">
+<img src="polo2.jpg">
+<div class="info">
+<h3>Modelo 2</h3>
+<p>Reemplaza con tu imagen.</p>
+<div class="precio">S/25.00</div>
+<a class="wsp" href="https://wa.me/51902467920">Pedir</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="poleras">
+<h2>Poleras</h2>
+<div class="grid">
+<div class="card"><img src="polera1.jpg"><div class="info"><h3>Polera UNI</h3><div class="precio">S/65.00</div></div></div>
+<div class="card"><img src="polera2.jpg"><div class="info"><h3>Polera UNI</h3><div class="precio">S/65.00</div></div></div>
+</div>
+</section>
+
+<section id="tazas">
+<h2>Tazas</h2>
+<div class="grid">
+<div class="card"><img src="taza1.jpg"><div class="info"><h3>Taza UNI</h3><div class="precio">S/8.00</div></div></div>
+<div class="card"><img src="taza2.jpg"><div class="info"><h3>Taza UNI</h3><div class="precio">S/8.00</div></div></div>
+</div>
+</section>
+
+<section id="gorras">
+<h2>Gorras</h2>
+<div class="grid">
+<div class="card"><img src="gorra1.jpg"><div class="info"><h3>Gorra UNI</h3><div class="precio">S/16.00</div></div></div>
+<div class="card"><img src="gorra2.jpg"><div class="info"><h3>Gorra UNI</h3><div class="precio">S/16.00</div></div></div>
+</div>
+</section>
+
+<section id="bolsos">
+<h2>Bolsos</h2>
+<div class="grid">
+<div class="card"><img src="bolso1.jpg"><div class="info"><h3>Bolso UNI</h3><div class="precio">S/9.00</div></div></div>
+<div class="card"><img src="bolso2.jpg"><div class="info"><h3>Bolso UNI</h3><div class="precio">S/9.00</div></div></div>
+</div>
+</section>
+
+<footer>
+<h3>UNIDROP</h3>
+<p>Pedidos: 902 467 920</p>
+</footer>
+
+</body>
+</html>
